@@ -1,0 +1,7 @@
+services:
+    cyberchef_app:
+        container_name: ${CONTAINER_NAME}_app
+        image: ghcr.io/gchq/cyberchef:latest
+        restart: unless-stopped
+        ports:
+            - ${APP_PORT}:80
