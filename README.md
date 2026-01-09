@@ -17,4 +17,4 @@ Use a `.env` file to define your variables.
  - `APP_PORT` is the port that the CyberChef application will run on locally. This will also be the port you need to use in your Cloudflare tunnel, if you choose to use one.
  - `CF_TUNNEL` the Base64 of the Cloudflare tunnel for CyberChef.
 
-More detailed documentation.
+[More detailed documentation](https://thedxt.ca/2026/01/cyberchef/)
