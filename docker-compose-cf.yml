@@ -4,7 +4,7 @@ services:
         image: ghcr.io/gchq/cyberchef:latest
         restart: unless-stopped
         ports:
-            - ${APP_PORT}:80
+            - ${APP_PORT}:8080
         depends_on:
           - cyberchef_cf_tunnel
 
